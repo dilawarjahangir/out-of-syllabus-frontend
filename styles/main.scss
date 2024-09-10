@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'mixins';
+
+@import './theme.scss';
+@import './globals.scss';
+@import './misc.scss';
+
+@import 'components/index';
+@import 'layouts/index';
+@import 'partials/index';
+@import 'pages/index';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: $font-stack;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

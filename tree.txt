@@ -1,0 +1,30 @@
+frontend/
+│
+├── src/
+│   ├── main.jsx                             # primary script
+│   ├── App.tsx                              # Application Entery Component
+│   ├── core/                                # Core application scripts
+│   ├── layouts/                             # Layouts
+│   ├── partials/                            # Layouts partial components
+│   ├── components/                          # Reusable components
+│   ├── pages/                               # Pages
+│   └── examples/                            # Components and core scripts usage examples
+│
+├── styles/
+│   ├── main.scss                            # Styles entery point
+│   ├── components/                          # Styles for re-usable components
+│   ├── layouts/                             # Styles for Layouts
+│   ├── pages/                               # Styles for Pages
+│   ├── partials/                            # Styles for Layout Partial components
+│   ├── theme.scss                           # Application theme and color scheme
+│   ├── _variables.scss                      # Global Variables
+│   ├── _mixins.scss                         # Global Mixins
+│   ├── globals.scss                         # Global Styles
+│   └── misc.scss                            # miscellaneous
+│
+├── dist/
+│   └── main.css                             # compiled css
+│
+├── index.html
+├── tsconfig.json
+└── (...other config files)
